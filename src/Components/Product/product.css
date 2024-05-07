@@ -1,0 +1,67 @@
+.product {
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-checkbox-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.custom-checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.custom-checkbox-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: inline-block;
+  position: relative;
+}
+
+.custom-checkbox-icon.checked {
+  background-color: #4caf50;
+  border-color: #4caf50;
+}
+
+.custom-checkbox-icon.checked::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -65%) rotate(45deg);
+  width: 10px;
+  height: 11px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+}
+.blurred {
+  filter: blur(5px);
+}
+.delete_icon {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  float: right;
+}
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

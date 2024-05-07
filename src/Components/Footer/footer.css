@@ -1,0 +1,29 @@
+.footer {
+  padding: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.basket {
+  width: 25px;
+  height: 25px;
+}
+.count {
+  display: flex;
+  align-items: center;
+  gap: 1vh;
+}
+.num {
+  background-color: green;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}

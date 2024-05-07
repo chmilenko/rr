@@ -1,0 +1,13 @@
+.container {
+  height: 100%;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3vh;
+  justify-items: center;
+  height: 90%;
+}
+.footer {
+  height: 10%;
+}

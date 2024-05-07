@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagination {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+}
+.back,
+.next {
+  width: 30px;
+  height: 30px;
+}
+.back {
+  transform: rotate(180deg);
+}
+.btn {
+  border: none;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+}
+.active {
+  background-color: red;
+}
