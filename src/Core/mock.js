@@ -2,7 +2,7 @@ export const data = [
 	{
 		"id": 1,
 		"height": 300,
-		"sample_url": "https://autoreview.ru/images/Article/1588/Article_158856_860_575.jpg",
+		"sample_url": "https://fotobase.co/files/img/photo/mashin-na-belom-fone/mashin-na-belom-fone-7.webp",
 		"width": 500,
 		"name": "Название изображения 1",
 		"price": 1200
@@ -26,7 +26,7 @@ export const data = [
 	{
 		"id": 4,
 		"height": 300,
-		"sample_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Hyundai_Tucson_%28NX4%2C_SWB%29_PHEV_1X7A1858.jpg",
+		"sample_url": "https://kartinkof.club/section2/uploads/posts/2023-12/kartinkof-club-p-mashina-na-belom-fone-s-tenyu-12.png",
 		"width": 500,
 		"name": "Название изображения 4",
 		"price": 1200
@@ -34,7 +34,7 @@ export const data = [
 	{
 		"id": 5,
 		"height": 300,
-		"sample_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvsAH2hR5Y9xYTSv0x-jICx2SXz50IXsB9AA&usqp=CAU",
+		"sample_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8v0uMNRViCqLZFSCyNauWg8F700Vm8Nrnv8gDYeLAiX0a3PfzuqpWp7UF-_cUOKqB61U&usqp=CAU",
 		"width": 500,
 		"name": "Название изображения 5",
 		"price": 1200
@@ -42,7 +42,7 @@ export const data = [
 	{
 		"id": 6,
 		"height": 300,
-		"sample_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRueEQdRSPV5jhRoVpUfiIOenzmwZKe1-g_2w&usqp=CAU",
+		"sample_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG1rWD_ObRj8kiCGpZpdpEW_51LX-_YvG8BXSYU4e4Og&s",
 		"width": 500,
 		"name": "Название изображения 6",
 		"price": 1200
@@ -50,7 +50,7 @@ export const data = [
 	{
 		"id": 7,
 		"height": 300,
-		"sample_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2ilis-FgkVNPmPn8a2zmVRYBKrmngkmQXGg&usqp=CAU",
+		"sample_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ195TPw4Ax7GgJtZoQMSq0J-KzP-r34tzXGrGrtFaz-A&s",
 		"width": 500,
 		"name": "Название изображения 7",
 		"price": 1200
@@ -58,7 +58,7 @@ export const data = [
 	{
 		"id": 8,
 		"height": 300,
-		"sample_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjtKCOlbYCwugmNJqit7Rl9dw8rP283-YTFg&usqp=CAU",
+		"sample_url": "https://static.lada.ru/images/v6/cars/configurator/granta/liftback/clas-ac_comf-l_comf_22/classic_22_221.webp",
 		"width": 500,
 		"name": "Название изображения 8",
 		"price": 1200
@@ -66,7 +66,7 @@ export const data = [
 	{
 		"id": 9,
 		"height": 300,
-		"sample_url": "https://di-uploads-development.dealerinspire.com/starhyundai/uploads/2019/12/2020-elantra-exterior.jpg",
+		"sample_url": "https://dimitrovgrad.altera-auto.ru/upload/resize_cache/iblock/805/600_500_1/80541e280aeac8e5352b5b256ea7f14b.png",
 		"width": 500,
 		"name": "Название изображения 9",
 		"price": 1200
@@ -74,7 +74,7 @@ export const data = [
 	{
 		"id": 10,
 		"height": 300,
-		"sample_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE9AqPn5K11dlwmGCtL5_nsphrxk2E98ewOQ&usqp=CAU",
+		"sample_url": "https://polinka.top/uploads/posts/2023-05/1684186177_polinka-top-p-avto-na-belom-fone-kartinki-vkontakte-17.png",
 		"width": 500,
 		"name": "Название изображения 10",
 		"price": 1200
@@ -82,7 +82,7 @@ export const data = [
 	{
 		"id": 11,
 		"height": 300,
-		"sample_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSptMlf2wa0otzqOgXYsUNmcPQIHiUxZNZgjg&usqp=CAU",
+		"sample_url": "https://hdpic.club/uploads/posts/2021-12/thumbs/1639493794_68-hdpic-club-p-avtomobil-bez-fona-68.png",
 		"width": 500,
 		"name": "Название изображения 11",
 		"price": 1200
@@ -90,7 +90,7 @@ export const data = [
 	{
 		"id": 12,
 		"height": 300,
-		"sample_url": "https://s7d1.scene7.com/is/image/hyundai/2023-ionic-6-ce-0006-category:4-3?qlt=85,0&fmt=webp",
+		"sample_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj8hSTUmIqdIQxuuP6VK8bw_THLoyOxEy2ztTM5kACCQ&s",
 		"name": "Название изображения 12",
 		"price": 1200
 	}

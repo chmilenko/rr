@@ -50,8 +50,7 @@ function Product({
         <img
           src={product?.sample_url}
           alt="product-image"
-          style={{ width: product.width, height: product.height }}
-          className={isChecked ? "blurred" : ""}
+          className={isChecked ? "blurred" : "car_img"}
         />
         {(isHovered || isChecked) && (
           <label className="custom-checkbox-label">

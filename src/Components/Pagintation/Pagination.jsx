@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import img from "../../assets/strelka.png";
 import "./pagination.css";
 
 const Pagination = ({ currentPage, setCurrentPage, totalPages }) => {
@@ -10,7 +9,7 @@ const Pagination = ({ currentPage, setCurrentPage, totalPages }) => {
       pageNumbers.push(
         <button
           key={i}
-          className={currentPage === i ? "active" : ""}
+          className={currentPage === i ? "active" : "btn_page"}
           onClick={() => setCurrentPage(i)}
         >
           {i}
@@ -27,6 +26,7 @@ const Pagination = ({ currentPage, setCurrentPage, totalPages }) => {
         <button
           disabled={currentPage === 1}
           onClick={() => setCurrentPage(currentPage - 1)}
+          className="btn"
         >
           Назад
         </button>
@@ -34,6 +34,7 @@ const Pagination = ({ currentPage, setCurrentPage, totalPages }) => {
         <button
           disabled={currentPage === totalPages}
           onClick={() => setCurrentPage(currentPage + 1)}
+          className="btn"
         >
           Вперед
         </button>

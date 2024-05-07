@@ -4,10 +4,13 @@ import Footer from "../Components/Footer/Footer";
 import { useEffect, useState } from "react";
 import Pagination from "../Components/Pagintation/Pagination";
 import useFavorites from "../Hooks/useFavorite";
+import useDeviceDetect from "../Hooks/useDeviceDetected";
 
 function App() {
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 4;
+  const { isMobile } = useDeviceDetect();
+
+  const itemsPerPage = isMobile ? 2 : 4;
 
   const {
     favorites,
@@ -27,9 +30,10 @@ function App() {
   const totalItems = products.length;
   const totalPages = Math.ceil(totalItems / itemsPerPage);
   const currentItems = products.slice(indexOfFirstItem, indexOfLastItem);
+
   return (
     <div className={style.container}>
-      <h3></h3>
+      <h3 className={style.intro}>{products.length} продуктов</h3>
       <div className={style.products}>
         {currentItems.map((product) => (
           <Product
@@ -42,11 +46,13 @@ function App() {
           />
         ))}
       </div>
-      <Pagination
-        currentPage={currentPage}
-        setCurrentPage={setCurrentPage}
-        totalPages={totalPages}
-      />
+      <div className={style.pagination}>
+        <Pagination
+          currentPage={currentPage}
+          setCurrentPage={setCurrentPage}
+          totalPages={totalPages}
+        />
+      </div>
       <div className={style.footer}>
         <Footer
           count={favorites.length}

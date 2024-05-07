@@ -34,7 +34,7 @@ function Footer({
         <span>товаров выбрано на сумму:{price}</span>
       </div>
       <img alt="delete" src={img} className="basket" onClick={removeAll} />
-      <p>Для отмены нажмите ESC</p>
+      <p className="reload">Для отмены нажмите ESC</p>
     </div>
   );
 }

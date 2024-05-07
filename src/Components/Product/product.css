@@ -65,3 +65,8 @@
   align-items: center;
   justify-content: center;
 }
+.car_img,
+.blurred {
+  width: 44vh;
+  height: 30vh;
+}

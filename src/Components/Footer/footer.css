@@ -1,8 +1,10 @@
 .footer {
-  padding: 44px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  height: 100%;
+  border-top: 1px solid black;
+  padding: 24px;
+  box-shadow: 6px -1px 17px rgba(66, 63, 63, 0.2);
 }
 .basket {
   width: 25px;
@@ -10,6 +12,8 @@
 }
 .count {
   display: flex;
+  justify-content: flex-start;
+  width: 49%;
   align-items: center;
   gap: 1vh;
 }
@@ -26,4 +30,9 @@
   width: 30px;
   height: 30px;
   cursor: pointer;
+}
+.reload {
+  width: 49%;
+  display: flex;
+  justify-content: flex-end;
 }

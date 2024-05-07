@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
 }
 .pagination {
   display: flex;
@@ -19,12 +20,31 @@
 .back {
   transform: rotate(180deg);
 }
+
+.active {
+  background-color: green;
+}
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+.btn_page,
+.active,
 .btn {
+  width: 30px;
+  height: 30px;
   border: none;
   outline: none;
-  background-color: white;
-  cursor: pointer;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.active {
-  background-color: red;
+.btn {
+  width: 100px;
+}
+@media screen and (max-width: 832px) {
+  .pagination {
+    width: 100%;
+  }
 }
